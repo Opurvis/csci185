@@ -1,0 +1,5 @@
+/* Your style rules here */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+li {
+    font-family: 'Quicksand', sans-serif;
+}
