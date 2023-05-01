@@ -1,3 +1,28 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+main {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    grid-template-columns: 2;
+    grid-template-rows: auto;
+    background-color: antiquewhite;
+    
+   
+
+}
+
+ section .card {
+        display: flex;
+        padding:10px;
+    grid-template-columns: 2;
+    grid-template-rows: auto;
+    background-color:white;
+
+    }       
+    
+img {
+    justify-content: space-between;
+}
+

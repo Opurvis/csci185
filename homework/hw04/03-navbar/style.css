@@ -14,5 +14,21 @@ body {
 nav {
     display: flex;
     padding: 20px;
+    background-color: salmon;
+    justify-content: space-between;
+}
+
+nav a {
+    color:darkred;
+    text-decoration:none;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+ul{
+    column-gap: 10px ;
 
 }
+

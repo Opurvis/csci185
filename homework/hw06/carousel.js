@@ -1,3 +1,5 @@
+// if i wanted to get the 4th image id do photos[idx]
+
 const photos = [
     "images/img1-600x400.jpg",
     "images/img2-600x400.jpg",
@@ -19,6 +21,9 @@ let idx = 0;
 */
 function showImage() {
     console.log('Show image');
+    //target the image
+    //set its source to whatever image is stored in the idx thing
+    //if idx = 0 its the first one etc...
 }
 
 
@@ -30,6 +35,8 @@ function showImage() {
 */
 function forward() {
     console.log('forward');
+    ++idx;
+    showImage()
 }
 
 
@@ -41,4 +48,6 @@ function forward() {
 */
 function back() {
     console.log('back');
+    --idx;
+    showImage ();
 }

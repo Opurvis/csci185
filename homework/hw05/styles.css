@@ -13,12 +13,24 @@ body {
 
 /* Your CSS Code Here! */
 
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 20px;
+    margin: 20px;
+}
+
 ul {
+
+    list-style: none;
 
 }
 
 
 header {
+    background-color: brown;
+
 
 }
 
