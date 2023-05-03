@@ -24,6 +24,10 @@ function showImage() {
     //target the image
     //set its source to whatever image is stored in the idx thing
     //if idx = 0 its the first one etc...
+    document.querySelector('.change-img').src= photos [idx];
+    let template=
+            <p>image ${[idx+1]} of ${photos.length}</p>
+            document.querySelector('.caption').innerHTML= template;
 }
 
 
@@ -35,8 +39,16 @@ function showImage() {
 */
 function forward() {
     console.log('forward');
-    ++idx;
-    showImage()
+        showImage();
+      
+        if (idx == 0); {
+            idx == photos.length+ 1;
+        }
+
+        else {
+            ++idx;
+        }
+
 }
 
 
@@ -48,6 +60,12 @@ function forward() {
 */
 function back() {
     console.log('back');
-    --idx;
     showImage ();
+    if (idx == 0); {
+        idx == photos.length-1;
+    }
+    else {
+        --idx;
+    }
+
 }
